@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 20%; */
+    border: 3px solid black;
+    margin: 0.25rem;
+    color: transparent;
+}
+
+.one + .two{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #d95980;
+    border-radius: 100% 0 0 0;
+}
+.yellow{
+    background-color: #f99b45;
+    border-radius:  0  0 0 100%;
+}
+.blue{
+    background-color: #819ff9;
+    border-radius:  0 100% 0 0;
+}
+.green{
+    background-color: #63aac0;
+    border-radius:  0 0 100% 0;
+}
+
+.flash{
+    background-color: #fff;
+}
+
+.userflash{
+    background-color: green;
+}
